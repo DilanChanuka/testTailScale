@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: tailscale-test-api
+  description: API Definition of tailscale-test-api
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/tailscale-test-api
+paths:
+  /test-tailscale:
+    get:
+      responses:
+        default:
+          description: Default response

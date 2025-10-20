@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/tailscale-test-api" name="tailscale-test-api" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/test-tailscale">
+        <inSequence>
+            <log category="INFO" logMessageID="false" logFullPayload="false">
+                <message>Inside the Component Log 01</message>
+            </log>
+            <call >
+    <endpoint key="test-devant-proxy-ep" />
+  
+</call>
+            <log category="INFO" logMessageID="false" logFullPayload="false">
+                <message>Inside the component Log 02</message>
+            </log>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+</api>

@@ -1,0 +1,10 @@
+---
+key: "tailscale-test-api-1.0.0"
+name : "tailscale-test-api"
+displayName : "tailscale-test-api"
+description: "tailscale-test-api"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/tailscale-test-api"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

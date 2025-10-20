@@ -6,7 +6,7 @@
                 <message>Inside the Component Log 01</message>
             </log>
             <call>
-                <endpoint key="test-endpoint-02"/>
+                <endpoint key="test-03-ep"/>
             </call>
             <log category="INFO" logMessageID="false" logFullPayload="false">
                 <message>Inside the component Log 02</message>

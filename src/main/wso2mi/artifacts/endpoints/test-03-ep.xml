@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoint name="test-03-ep" xmlns="http://ws.apache.org/ns/synapse">
-    <http method="get" uri-template="http://tailscale-proxy-2271099802:8080/test">
+    <http method="get" uri-template="http://tailscale-proxy-2271099802:8080/Readme.md">
         <suspendOnFailure>
             <initialDuration>-1</initialDuration>
             <progressionFactor>1</progressionFactor>
